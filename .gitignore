@@ -1,0 +1,36 @@
+# Chỉ nhận các thư mục bài học day_01, day_02, ... ở gốc dự án.
+/*
+!/.gitignore
+!/day_[0-9]*/
+
+# Bỏ qua thư mục biên dịch và cấu hình máy cá nhân trong các bài học.
+**/.build/
+**/build/
+**/.vscode/
+**/.idea/
+
+# File sinh ra khi biên dịch, liên kết và gỡ lỗi.
+*.o
+*.obj
+*.exe
+*.out
+*.elf
+*.bin
+*.hex
+*.map
+*.a
+*.lib
+*.so
+*.dll
+*.pdb
+*.ilk
+*.d
+*.log
+
+# File tạm của trình soạn thảo và hệ điều hành.
+*.tmp
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
